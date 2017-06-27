@@ -1,0 +1,19 @@
+/**
+* File: ProgressBar.css
+* @author Victoria Chistolini
+* Date: January 15, 2017
+*/
+
+
+
+.gridPane{
+	 -fx-background-color: LIGHTGRAY;
+	 -fx-opacity: 0.95;
+	  -fx-stroke: black;
+}
+
+.label{
+    -fx-background-color:LIGHTGRAY ;
+    -fx-opacity: 0.99;
+    -fx-stroke:black;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- /**
+ * File: main.fxml
+ * @author Victoria Chistolini
+ * Date: January 9, 2017
+ */ -->
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamiDataset_version1.Controller.ControllersInitializer">
+    <top>
+        <MenuBar>
+            <fx:include fx:id="fileMenu" source="fileMenu.fxml" />
+        </MenuBar>
+    </top>
+
+    <center>
+        <fx:include fx:id="displayPanel" source="displayPanel.fxml" />
+    </center>
+   
+</BorderPane>

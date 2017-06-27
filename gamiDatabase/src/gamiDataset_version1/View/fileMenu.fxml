@@ -1,0 +1,50 @@
+<!-- /**
+ * File: fileMenu.fxml
+ * @author Victoria Chistolini
+ * Date: January 9, 2017
+ */ -->
+
+<?import javafx.scene.control.*?>
+
+<Menu text="Settings"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="gamiDataset_version1.Controller.FileMenuController">
+
+    <MenuItem
+            text="About"
+            onAction="#about"
+    />
+    <SeparatorMenuItem/>
+    <MenuItem
+            fx:id="createProject"
+            text="Create Project"
+            onAction="#newProject"
+            accelerator="Shortcut+N"
+    />
+    <MenuItem
+            fx:id="currentButton"
+            text="Change Project Settings"
+            onAction="#currentprojectSettings"
+            accelerator="Shortcut+C"
+    />
+    <SeparatorMenuItem/>
+    <MenuItem
+            fx:id="verifyButton"
+            text="Verify Search"
+            onAction="#verifySearchMetrics"
+            accelerator="Shortcut+V"
+    />
+
+    <MenuItem
+            fx:id="buildDataset"
+            text="Build Dataset"
+            onAction="#buildDataset"
+            accelerator="Shortcut+B"
+    />
+    <SeparatorMenuItem/>
+    <MenuItem
+            text="Exit"
+            onAction="#cleanUpOnExit"
+            accelerator="Shortcut+Q"
+    />
+</Menu>
